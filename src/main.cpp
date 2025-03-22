@@ -1,3 +1,6 @@
+// main for the ideal system, not for testing
+// i.e. many placeholder functions
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
@@ -78,54 +81,3 @@ void loop() {
 
     delay(100);
 }
-
-
-// IGNORE THE FOLLOWING DRAFT CODE (old)
-
-// COMMAND INTERFACE (GUI ON LAPTOP)
-// placeholder, fix command interface
-
-// void resetFuelCmd() {
-//     bool fuelCmdReceived = false;
-//     float fuelTimeReceived = 0; // dispense duration seconds
-// }
-
-// void resetWaterCmd() {
-//     bool waterIntakeCmdReceived = false;
-//     float waterTimeReceived = 0; // water intake duration seconds
-// }
-
-// void resetVentCmd() {
-//     bool gasVentCmdReceived = false;
-//     float ventTimeReceived = 0; // gas vent duration seconds
-// }
-
-// void resetCmds() {
-//     resetFuelCmd();
-//     resetWaterCmd();
-//     resetVentCmd();
-// }
-
-// // FIX! (output durations?) CHANGE TO CAN BUS PROCESS COMMAND, IN SENSORS.H
-// void command() {
-//     // if fuel command received from laptop
-//     bool fuelCmdReceived = true;
-//     Serial.println("Fuel laptop command received.");
-//     // dispense duration set from command
-//     float fuelTimeReceived = 90;
-//     Serial.println("Fuel dispense duration: X seconds, Y minutes.");
-
-//     // if water intake command received from laptop
-//     bool waterIntakeCmdReceived = true;
-//     Serial.println("Fuel laptop command received.");
-//     // dispense duration set from command
-//     float waterTimeReceived = 30;
-//     Serial.println("Fuel dispense duration: X seconds, Y minutes.");
-
-//     // if gas vent command received from laptop
-//     bool gasVentCmdReceived = true;
-//     Serial.println("Fuel laptop command received.");
-//     // dispense duration set from command
-//     float ventTimeReceived = 30;
-//     Serial.println("Fuel dispense duration: X seconds, Y minutes.");
-// }
