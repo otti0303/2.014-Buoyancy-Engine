@@ -1,6 +1,11 @@
+# RUN ON LAPTOP
+# run this script on laptop to connect to ESP32 port
+# make sure that PUMPY.cpp has already been uploaded to the ESP32
+# make sure that you have exited out of the arduino IDE
+
 # if this script outputs a weird GUI thats basically a black screen
 # copy the code into a new window of whatever software you're using and run it there
-# seems like platform.ini doesn't like tkinter
+# platform.ini doesn't like tkinter
 
 import tkinter as tk
 import time

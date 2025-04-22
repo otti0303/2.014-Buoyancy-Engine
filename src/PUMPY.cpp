@@ -1,6 +1,6 @@
-// UPLOAD TO ESP32 USING ARDUINO IDE
-// upload this script to the esp32 using arduino ide, then quit arduino (such that port is not open/being used by ide)
-// then run engine_GUI.py on laptop terminal which will connect to esp32 port using python
+// UPLOAD TO ESP32
+// upload this script to the ESP32 using arduino IDE, then quit arduino (such that port is not open/being used by arduino IDE)
+// then run user_GUI.py on laptop terminal which will connect to ESP32 port using python
 
 #define ALUMINUM_PUMP 16 
 #define AMMONIA_PUMP 17 
