@@ -2,3 +2,5 @@
 2.014 Buoyancy Engine Team Repository (Spring 2025)
 
 cpp with ESP-IDF / Arduino IDE
+
+py for laptop GUI
